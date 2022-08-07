@@ -8,14 +8,16 @@ var isPalindrome = function(x) {
     }else if (x <=9){
         return true;
     }else{
-        let sum = 0, b, a = x;
-        while(a>0){
-            b = a % 10;
-            sum = sum*10 + b;
-            a = parseInt(a /10);
-        }
-        console.log("sum", sum)
-        return sum === x;
+        // let sum = 0, b, a = x;
+        // while(a>0){
+        //     b = a % 10;
+        //     sum = sum*10 + b;
+        //     a = parseInt(a /10);
+        // }
+        // console.log("sum", sum)
+        // return sum === x;
+        
+        return parseInt(x.toString().split('').reverse().join('')) == x;
         
     }
     
