@@ -20,7 +20,6 @@ var isValid = function(s) {
           return false;
       }
     }
-      console.log(leftSymbol)
       return !leftSymbol.length;
   }
 };
