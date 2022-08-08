@@ -11,11 +11,8 @@ var longestCommonPrefix = function(strs) {
         let out = strs[0][0];
        let index = 1;
       while(out.length <= strs[0].length){
-          
            for(let i = 1; i<strs.length; i++){
-            console.log('outttt',out,index, strs[i].slice(0,index)  )
            if(out !== strs[i].slice(0,index)){
-               console.log('HEyyyyyy', out)
                return out.slice(0, index-1);
            }
        }
