@@ -10,7 +10,6 @@ public:
                 return 0;
             }
             reverse = reverse * 10 + lastDigit;
-            cout << reverse << "    " << x << endl;
             x /= 10;
            
         }
