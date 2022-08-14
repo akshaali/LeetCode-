@@ -35,8 +35,6 @@ class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
         vector<int> ans;
-        cout <<firstOccurance(nums, target)<<endl; 
-        cout <<lastOccurance(nums, target)<<endl;
         ans.push_back(firstOccurance(nums, target));
         ans.push_back(lastOccurance(nums, target));
         return ans;
