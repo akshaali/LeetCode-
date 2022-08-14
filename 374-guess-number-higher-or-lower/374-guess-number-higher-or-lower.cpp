@@ -12,7 +12,7 @@ public:
     int guessNumber(int n) {
         int start = 0;
         int end = n;
-       unsigned long long int mid;
+       int mid;
         while(start<=end){
             mid = start+(end - start)/2; 
             int pick = guess(mid);
