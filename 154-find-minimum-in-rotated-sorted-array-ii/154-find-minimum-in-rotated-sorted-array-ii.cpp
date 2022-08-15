@@ -15,8 +15,7 @@ public:
         //     mid = start + (end - start)/2;
         //     }
         // return nums[start];
-        int n=nums.size();
-        int left=0,right=n-1,mid=0;
+        int left=0,right=nums.size()-1,mid=0;
         while(left<right){
             mid=left+(right-left)/2;
             if(nums[mid]>nums[right])left=mid+1;
