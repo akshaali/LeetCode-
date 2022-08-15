@@ -1,11 +1,9 @@
-using namespace std;
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
         int start = 0, end = nums.size()-1;
         while(start<=end){
             int mid = start + (end-start)/2;
-            cout<<mid<<"  "<<start<<"  "<<end<<endl;
             if(nums[mid] == target) return true;
             else if((nums[start] == nums[mid]) && (nums[end] == nums[mid]))
             {
