@@ -1,4 +1,3 @@
-using namespace std;
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
@@ -40,14 +39,13 @@ public:
             if(val>=1 && val<=size){
                 if(nums[val-1]>0){
                     nums[val -1] = -1 * nums[val-1];
-                }else if(nums[val-1]==0)
+                }else if(nums[val-1] == 0){
                     nums[val-1]=-1*(size+1);
+                }
             }
         }
         
         for(int i = 1; i<=size; i++){
-            cout << nums[i-1] << '\n';
-            
             if(nums[i-1] >=0){
                 return i;
             }
