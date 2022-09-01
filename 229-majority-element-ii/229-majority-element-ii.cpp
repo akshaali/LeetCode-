@@ -1,11 +1,9 @@
-using namespace std;
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
         vector<int> majority;
         int maj1=INT_MIN, maj2=INT_MIN, count1=0, count2=0;
         for(auto ele: nums){
-            cout<<"element: "<<ele<<"\n";
             if(maj1 == ele) count1++;
             else if(maj2 == ele) count2++;
             else if(count1 == 0){ 
@@ -21,8 +19,6 @@ public:
                 count2--;
             }
         }
-        cout<<maj1<<"   "<<count1<<"\n";
-        cout<<maj2<<"   "<<count2<<"\n";
         int maj = nums.size()/3;
         count1 = 0, count2 = 0;
         for(auto ele: nums){
