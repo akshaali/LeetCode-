@@ -1,4 +1,3 @@
-using namespace std;
 class Solution {
 public:
     int garbageCollection(vector<string>& garbage, vector<int>& travel) {
@@ -16,7 +15,6 @@ public:
                     flagG = true;
                 }
             }
-            cout<<garbage[i]<<" "<<flagM<<" "<<flagP<<" "<<flagG<<endl;
             if(flagM) maxIndexM =i;
             if(flagP) maxIndexP =i;
             if(flagG) maxIndexG =i;
@@ -24,7 +22,6 @@ public:
         for(int i = 1; i<travel.size(); i++){
             travel[i] += travel[i-1];
         }
-        cout<<"maxIndexM: "<<maxIndexM<<" maxIndexP: "<<maxIndexP<<" maxIndexG: "<<maxIndexG<<endl;
         time += maxIndexM>0 ? travel[maxIndexM -1] : 0;
         time += maxIndexP>0 ? travel[maxIndexP -1] : 0;
         time += maxIndexG>0 ? travel[maxIndexG -1] : 0;
