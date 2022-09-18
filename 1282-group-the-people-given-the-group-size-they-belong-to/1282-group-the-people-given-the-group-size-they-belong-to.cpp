@@ -1,18 +1,20 @@
-function groupThePeople(groupSizes: number[]): number[][] {
-    let obj = {};
-    let out = [];
-    for(let i=0; i<groupSizes.length; i++){
-        if(obj[groupSizes[i]]){
-            obj[groupSizes[i]] = [...obj[groupSizes[i]], i];
-        }else{
-            obj[groupSizes[i]] = [i];
+class Solution {
+public:
+    vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
+        unordered_map<int, vector<int>> obj;
+        vector<vector<int>> out;
+        for (int i=0; i<groupSizes.size(); i++) {
+            int key = groupSizes[i];
+            if (obj.count(key) > 0) { // check existing groups to fill
+                obj[key].push_back(i);
+            } else { // create a new group
+                obj[key] = vector<int>{i};
+            }
+            if (obj[key].size() == key) { // group is full
+                out.push_back(obj[key]);
+                obj.erase(key);
+            }
         }
-        if(obj[groupSizes[i]].length == groupSizes[i] ){
-            out.push(obj[groupSizes[i]]);
-            delete obj[groupSizes[i]];
-        }
+        return out;
     }
-     console.log(obj);
-    console.log(out);
-     return out;
 };
