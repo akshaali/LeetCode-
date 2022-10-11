@@ -1,5 +1,3 @@
-using namespace std;
-
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
@@ -14,7 +12,6 @@ public:
             }
         }
         for(auto rc: zeroes){
-            cout<<rc[0]<<" "<<rc[1]<<endl;
             for(int r = 0; r <row;r++ ){
                 matrix[r][rc[1]] = 0;
             }
