@@ -7,11 +7,11 @@ public:
             int numToTarget = target-nums[i];
             if(map.count(numToTarget)){
                ans.push_back(i);
-                ans.push_back(map[numToTarget]);
+               ans.push_back(map[numToTarget]);
+                break;
             }
             map[nums[i]] = i;
         }
         return ans;
-        
     }
 };
