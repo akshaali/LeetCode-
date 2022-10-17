@@ -1,19 +1,23 @@
 class Solution {
 public:
     vector<bool> checkArithmeticSubarrays(vector<int>& nums, vector<int>& l, vector<int>& r) {
-//         vector<bool> ans;
-//         for(int i = 0; i< l.size(); i++){
-//             auto start = nums.begin() + l[i];
-//             auto end = nums.begin() + r[i] + 1;
+        vector<bool> ans;
+        for(int i = 0, j = 0; i< l.size(); i++){
+            auto start = nums.begin() + l[i];
+            auto end = nums.begin() + r[i] + 1;
 
-//             // To store the sliced vector
-//             vector<int> result(l[i] - r[i] + 1);
+            // To store the sliced vector
+            vector<int> n(r[i] - l[i] + 1);
 
-//             // Copy vector using copy function()
-//             copy(start, end, result.begin());
-//             ans.push_back(checkIsAP(result));
-//         }
-//         return ans;
+            // Copy vector using copy function()
+            copy(start, end, n.begin());
+            sort(n.begin(), n.end());
+            for (j = 2; j < n.size(); ++j)
+                if (n[j] - n[j - 1] != n[1] - n[0])
+                    break;
+            ans.push_back(j == n.size());
+        }
+        return ans;
         vector<bool> res;
         for (auto i = 0, j = 0; i < l.size(); ++i) {
             vector<int> n(begin(nums) + l[i], begin(nums) + r[i] + 1);
