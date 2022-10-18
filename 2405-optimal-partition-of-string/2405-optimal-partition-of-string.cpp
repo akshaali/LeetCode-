@@ -2,7 +2,7 @@ using namespace std;
 class Solution {
 public:
     int partitionString(string s) {
-        int ans = 0;
+        int ans = 1;
         unordered_map<int,int> mp;
         mp[s[0]]++;
        for(int i = 1; i<s.size(); i++){
@@ -13,7 +13,7 @@ public:
            }
            mp[s[i]]++;
        }
-        ans = mp.size()? ans+1 :ans;
+        // ans = mp.size()? ans+1 :ans;
         return ans;
     }
 };
