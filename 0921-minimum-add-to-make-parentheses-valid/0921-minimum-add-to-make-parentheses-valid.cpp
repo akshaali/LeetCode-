@@ -2,22 +2,37 @@ using namespace std;
 class Solution {
 public:
     int minAddToMakeValid(string s) {
-        stack<char> st;
+        // S.C = o(n)
+        // stack<char> st;
+        // for(int i = 0; i<s.size(); i++){
+        //     char ch = s[i];
+        //     if(ch == '('){
+        //         st.push(ch);
+        //     }
+        //     else{
+        //          if(st.size() && st.top() == '('){
+        //              st.pop();
+        //          }else{
+        //              st.push(ch);
+        //          }
+        //     }
+        // }
+        // return st.size();
+        // solution 2
+        int open = 0, close = 0;
         for(int i = 0; i<s.size(); i++){
             char ch = s[i];
             if(ch == '('){
-                st.push(ch);
+                open++;
             }
             else{
-                 if(st.size() && st.top() == '('){
-                     st.pop();
+                 if(open){
+                     open--;
                  }else{
-                     st.push(ch);
+                     close++;
                  }
             }
-            // cout<<sz<<endl;
         }
-        return st.size();
-        
+        return open+close;
     }
 };
