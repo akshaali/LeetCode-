@@ -1,43 +1,36 @@
+using namespace std;
 class Solution {
-     bool isSubsequence(string s, string t) {
-        int tSize = t.size(), sSize = s.size();
-        int i = 0, j = 0;
-        while(i<tSize && j<sSize){
-            if(s[j] == t[i]){
-                j++;
-            }
-            i++;
-        }
-        return j == sSize;
-    }
 public:
     int numMatchingSubseq(string s, vector<string>& words) {
-        // int ans = 0;
-        // for(int i = 0; i<words.size(); i++){
-        //     if(isSubsequence(words[i], s)) ans++;
-        // }
-        // return ans;
-        int count = 0;
-        //we will be form map to count occurences of particular word to avoid re calculation and this will reduce time
-        unordered_map<string,int> mp;
-        for(int i= 0; i < words.size(); i++){
-            mp[words[i]]++;
-        }
-        for(auto x : mp){
-            string str = x.first;
-            int n = str.size();
-            int i = 0, j = 0;
-            while(i < n && j < s.size()){
-                if(str[i] == s[j]){
-                    i++;
-                }
-                j++;
-            }
-            if(i == n){
-                count += x.second;  //if we reach the length of string str then this word in our string s. so we increase our count by the number of times it occurred in words instead of incrementing by 1
-            }
-        }
+        // vector<pair<int, int>> waiting[128];
+        unordered_map<char, vector<pair<int,int>>> waiting;
         
-        return count++;
+        
+        
+        int ans = 0;
+        
+        for (int i = 0; i < words.size(); i++){
+             // waiting[words[i][0]].emplace_back(i, 1);
+            char ch = words[i][0];
+            waiting[ch].emplace_back(i,1);
+        }  
+        for (char c : s) {
+            // auto advance = waiting[c];
+            auto advance = waiting[c];
+            waiting.erase(c);
+            for (auto it : advance){
+                // cout<<"it.first: "<<it.first<<" it.second: "<<it.second<<" "<<endl;
+                if(it.second == words[it.first].size()) ans++;
+                char ch = words[it.first][it.second];
+                waiting[ch].emplace_back(it.first, ++it.second);
+                
+                
+                
+                // waiting[words[it.first][it.second++]].push_back(it);
+            }
+                
+        }
+        // return waiting[0].size();
+        return ans;
     }
 };
