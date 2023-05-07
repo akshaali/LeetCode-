@@ -15,11 +15,14 @@ public:
             }
             return;
         }
-        sum += candidates[index];
-        subset.push_back(candidates[index]);
-        targetSum(index, sum, output, subset, size,candidates, target);
-        sum -= candidates[index];
-        subset.pop_back();
+        if(sum<target){
+            sum += candidates[index];
+            subset.push_back(candidates[index]);
+            targetSum(index, sum, output, subset, size,candidates, target);
+            sum -= candidates[index];
+            subset.pop_back();
+        }
+       
         targetSum(index+1, sum, output, subset, size,candidates, target);
     }
     
