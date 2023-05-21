@@ -1,0 +1,37 @@
+using namespace std;
+class Solution {
+public:
+    int calculate(string s) {
+        stack<int>myStack;
+        int ans = 0;
+        long long int tmp = 0;
+        char sign = '+';
+        for(int i = 0; i<s.size(); i++){
+            if (isdigit(s[i]))
+            tmp = 10*tmp + s[i]-'0';
+            if (!isdigit(s[i]) && !isspace(s[i]) || i == s.size()-1) {
+                if (sign == '-')
+                    myStack.push(-tmp);
+                else if (sign == '+')
+                    myStack.push(tmp);
+                else {
+                    int num;
+                    if (sign == '*' )
+                        num = myStack.top()*tmp;
+                    else
+                        num = myStack.top()/tmp;
+                    myStack.pop();
+                    myStack.push(num);
+                } 
+                sign = s[i];
+                tmp = 0;
+            }
+        }
+        
+        while(!myStack.empty()){
+            ans += myStack.top();      
+            myStack.pop();
+        }
+        return ans;
+    }
+};
