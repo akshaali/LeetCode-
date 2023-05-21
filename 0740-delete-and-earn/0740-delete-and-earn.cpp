@@ -9,21 +9,23 @@ public:
         sort(numset.begin(), numset.end());
         int n = numset.size();
         vector<int>dp(n+1, -1);
-        dp[0] = 0;
-        dp[1] = numset[0]*mp[numset[0]];
+        int earn1 = 0;
+        int earn2 = numset[0]*mp[numset[0]];
         for(int i = 2; i<=n; i++){
             int num = numset[i-1];
             int freq = mp[num];
             int notPick = INT_MIN;
             int pick = INT_MIN;
             if(numset[i-2] == numset[i-1]-1){
-                pick = freq*num + dp[i-2];
-                notPick = dp[i-1];
+                pick = freq*num + earn1;
+                notPick = earn2;
             }else{
-                pick = freq*num + dp[i-1];
+                pick = freq*num + earn2;
             }
-            dp[i] = max(notPick, pick);
+            int curr = max(notPick, pick);
+            earn1 = earn2;
+            earn2 = curr;
         }
-        return dp[n];
+        return earn2;
     }
 };
