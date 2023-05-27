@@ -1,26 +1,42 @@
 using namespace std;
 class Solution {
 public:
-    int getVal(vector<vector<int>> &mat,vector<vector<int>> &dp, int i=0, int j=0){
-        int n = mat.size();
-        int m = mat[0].size();
-        if(i == n || j == m)  return 1e9; 
-        if(i == n-1 and j == m-1)   
-            return (mat[i][j] <= 0) ? -mat[i][j] + 1 : 1;
-        if(dp[i][j] != -1e9) return dp[i][j];
-        int IfWeGoRight = getVal(mat,dp , i , j+1);
-        int IfWeGoDown = getVal(mat,dp , i+1 , j);
-        
-        int minHealthRequired =  min(IfWeGoRight , IfWeGoDown) -mat[i][j];
-        int ans = ( minHealthRequired <= 0 ) ? 1 : minHealthRequired;
-        dp[i][j] = ans;
-        return ans;      
-    }
-    
+        void print(vector<int> arr){
+                cout<<"[";
+                for(auto a: arr){
+                        cout<<a<<", ";
+                }
+                cout<<"]"<<endl;
+        }
     int calculateMinimumHP(vector<vector<int>>& dungeon) {
-        int n = dungeon.size();
-        int m = dungeon[0].size();
-        vector<vector<int>>dp(n, vector<int>(m, -1e9));
-        return getVal(dungeon,dp);     
+        int m = dungeon.size();
+        int n = dungeon[0].size();
+        vector<int>prev(n, 0);
+        for(int i = m-1; i>=0; i--){
+                vector<int>curr(n,0);
+                for(int j = n-1; j>=0; j--){
+                        if(i == m-1 && j == n-1){
+                               curr[j] =  (dungeon[i][j] <= 0) ? -dungeon[i][j] + 1 : 1;
+                                continue;
+                        }
+                        int up = 1e9;
+                        int left = 1e9;
+                        if(i<m-1){
+                                 up = prev[j] - dungeon[i][j];
+                        }
+                        if(j<n-1){
+                                // cout<<"here "<<j<<" i: "<<i<<endl;
+                                left = curr[j+1] -  dungeon[i][j];
+                                // cout<<left<<endl;
+                        }
+                        // cout<<"left:   "<<left<<endl;
+                        int minHealthRequired =  min(up , left);
+                        // cout<<j<<" "<<up<<" "<<left<<" "<<minHealthRequired<<endl;
+                        curr[j] = ( minHealthRequired <= 0 ) ? 1 : minHealthRequired;
+                }
+                // print(curr);
+                prev = curr;
+        }
+        return prev[0];
     }
 };
