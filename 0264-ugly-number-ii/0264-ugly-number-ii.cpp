@@ -1,21 +1,18 @@
 class Solution {
 public:
-   void solve( set<long long> &s, long long num){
-        if(num >=INT_MAX) return;
-        if( s.find(num)!=s.end()) return;
-        s.insert(num);
-        solve(s, num*2);
-        solve(s, num*3);
-        solve(s, num*5);
-    }
     int nthUglyNumber(int n) {
-        set<long long> s;
-        solve( s, 1);
-        int ans =n;
-        for( auto i: s){
-            n--;
-            if( n==0) ans = i;
+        vector<int>ugly(n+1, 0);
+        ugly[1] = 1;
+        int p2=1;
+        int p3=1;
+        int p5=1;
+       for(int i=2;i<=n;++i){
+            int el = min({ugly[p2]*2, ugly[p3]*3, ugly[p5]*5});
+            ugly[i] =el;
+            if( ugly[p2]*2==el) p2++;
+            if( ugly[p3]*3==el) p3++;
+            if( ugly[p5]*5==el) p5++;
         }
-        return ans;
+        return ugly[n];
     }
 };
