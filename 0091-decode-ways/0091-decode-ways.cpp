@@ -1,20 +1,16 @@
 class Solution {
 public:
-    int n;
-    int solve(int index,string &s,vector<int>&dp){
-        if(index == n) return 1;
-        if(s[index] == '0') return 0;
-        if(dp[index] != -1) return dp[index];
-        int res = solve(index+1,s,dp);
-        if( index < n-1 && (s[index]=='1'|| (s[index]=='2'&& s[index+1]<'7'))){
-            res += solve(index+2,s,dp);
-        }
-        dp[index] = res;
-        return res;
-    }
     int numDecodings(string s) {
-        n = s.size();
-        vector<int>dp(n,-1);
-        return solve(0, s, dp);
+        int n = s.size();
+        vector<int> dp(n+1,0);
+        dp[n] = 1;
+        for(int i=n-1;i>=0;i--) {
+            if(s[i]=='0') dp[i]=0;
+            else {
+                dp[i] = dp[i+1];
+                if(i<n-1 && (s[i]=='1'||s[i]=='2'&&s[i+1]<'7')) dp[i]+=dp[i+2];
+            }
+        }
+        return dp[0];  
     }
 };
