@@ -1,3 +1,4 @@
+// Tabulation
 class Solution {
 public:
     int n;
@@ -15,7 +16,18 @@ public:
     }
     int lengthOfLIS(vector<int>& nums) {
         n = nums.size();
-        vector<vector<int>>dp(n, vector<int>(n, -1));
-        return solve(0, -1, nums, dp);
+        vector<vector<int>>dp(n+1, vector<int>(n+1, 0));
+        for(int index = n-1; index>=0; index--){
+            for(int prevIndex = index-1; prevIndex>=-1; prevIndex--){
+                int take = INT_MIN;
+                int notTake = 0 + dp[index+1][prevIndex+1];
+                if(prevIndex == -1 || nums[prevIndex] < nums[index]){
+                    take = 1 + dp[index+1][index+1];
+                }
+                int ans = max(take, notTake);
+                dp[index][prevIndex+1] = ans;
+            }
+        }
+        return dp[0][0];
     }
 };
