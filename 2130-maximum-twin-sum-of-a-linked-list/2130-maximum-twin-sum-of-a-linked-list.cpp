@@ -10,28 +10,25 @@
  */
 class Solution {
 public:
-    int lengthList(ListNode* head){
-        int length = 0;
-        while(head != NULL){
-            head = head->next;
-            length++;
-        }
-        return length;
-    }
     int pairSum(ListNode* head) {
-        stack<int> st;
         int ans = INT_MIN;
-        int halfLen = lengthList(head)/2;
-        while(halfLen){
-            st.push(head->val);
-            head = head->next;
-            halfLen--;
+        ListNode* slow = head;
+        ListNode* fast = head;
+        while(fast && fast->next != NULL){
+            slow = slow->next;
+            fast = fast->next->next;
         }
-        while(head!=NULL){
-            int ele = st.top();
-            st.pop();
-            ans = max(ans, ele+head->val);
+        ListNode* node = NULL;
+        while(slow != NULL){
+            ListNode* next = slow->next;
+            slow->next = node;
+            node = slow;
+            slow = next;
+        }
+        while(node!=NULL){
+            ans = max(ans, node->val+head->val);
             head = head->next;
+            node = node->next;
         }
         return ans;
     }
