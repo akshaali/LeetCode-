@@ -8,44 +8,29 @@
  */
 class Solution {
 public:
+    int lengthList(ListNode *head){
+        int length = 0;
+        while(head != NULL){
+            length++;
+            head = head->next;
+        }
+        return length;
+    }
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        ListNode* ans = NULL;
-        bool flag = false;
-        unordered_map<ListNode*, int> mp;
-        while(headA && headB){
-            if(mp[headA]){
-                ans = headA;
-                return ans;
-            }else{
-                mp[headA]++;
-            }
-            if(mp[headB]){
-                ans = headB;
-                return ans;
-            }else{
-                mp[headB]++;
-            }
+        int lenA = lengthList(headA);
+        int lenB = lengthList(headB);
+        while(lenA>lenB){
+            headA = headA->next;
+            lenA--;
+        }
+        while(lenB>lenA){
+            headB = headB->next;
+            lenB--;
+        }
+        while(headA != headB){
             headA = headA->next;
             headB = headB->next;
         }
-        while(headA){
-            if(mp[headA]){
-                ans = headA;
-                return ans;
-            }else{
-                mp[headA]++;
-            }
-            headA = headA->next;
-        }
-        while(headB){
-            if(mp[headB]){
-                ans = headB;
-                return ans;
-            }else{
-                mp[headB]++;
-            }
-            headB = headB->next;
-        }
-        return ans;   
+        return headA;   
     }
 };
