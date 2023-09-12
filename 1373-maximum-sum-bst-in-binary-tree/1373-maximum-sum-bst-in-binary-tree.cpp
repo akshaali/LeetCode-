@@ -35,7 +35,7 @@ public:
         currNode.mini = min(left.mini, root->val);
         currNode.maxi = max(root->val, right.maxi);
         currNode.sum = left.sum + right.sum + root->val;
-        cout<<left.isValid<<" "<<right.isValid<<" "<<left.maxi<<" "<<right.mini<<endl;
+        // cout<<left.isValid<<" "<<right.isValid<<" "<<left.maxi<<" "<<right.mini<<endl;
         if(root->val > left.maxi && root->val < right.mini && left.isValid && right.isValid){
             currNode.isValid = true;
         }else{
