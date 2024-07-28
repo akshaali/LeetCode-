@@ -12,10 +12,10 @@ public:
             max_freq = max(max_freq, hash[s[right] - 'A']);
             while((right - left + 1) - max_freq > k){
                 hash[s[left]-'A']--;
-                max_freq = 0;
-                for(int i = 0; i<25; i++){
-                    max_freq = max(max_freq, hash[i]);
-                }
+                // max_freq = 0;
+                // for(int i = 0; i<25; i++){
+                //     max_freq = max(max_freq, hash[i]);
+                // }
                 left++;
             }
             max_len = max(max_len, right-left+1);
