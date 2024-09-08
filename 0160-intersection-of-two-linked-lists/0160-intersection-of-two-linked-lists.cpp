@@ -8,29 +8,35 @@
  */
 class Solution {
 public:
-    int lengthList(ListNode *head){
-        int length = 0;
-        while(head != NULL){
-            length++;
+    int getLengthLL(ListNode *head){
+        int len = 0;
+        while(head){
+            len++;
             head = head->next;
         }
-        return length;
+        return len;
+    }
+    ListNode* colisionNode(ListNode* headA, ListNode* headB, int len){
+        ListNode* tempA = headA;
+        ListNode* tempB = headB;
+        while(len){
+            tempA = tempA->next;
+            len--;
+        }
+        while(tempA && tempB && tempA != tempB){
+            tempA = tempA->next;
+            tempB = tempB->next;
+        }
+        return tempA;
     }
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        int lenA = lengthList(headA);
-        int lenB = lengthList(headB);
-        while(lenA>lenB){
-            headA = headA->next;
-            lenA--;
+        ListNode* tempA = headA;
+        ListNode* tempB = headB;
+        int lenA = getLengthLL(tempA);
+        int lenB = getLengthLL(tempB);
+        if(lenA>lenB){
+            return colisionNode(headA, headB, lenA-lenB);
         }
-        while(lenB>lenA){
-            headB = headB->next;
-            lenB--;
-        }
-        while(headA != headB){
-            headA = headA->next;
-            headB = headB->next;
-        }
-        return headA;   
+        return colisionNode(headB, headA, lenB-lenA);
     }
 };
