@@ -10,7 +10,7 @@
  */
 class Solution {
 public:
-    int lengthList(ListNode* head){
+    int lenthLL(ListNode* head){
         int len = 0;
         while(head){
             len++;
@@ -18,27 +18,35 @@ public:
         }
         return len;
     }
-    ListNode* rotateRight(ListNode* head, int k) {
-        int n = lengthList(head);
-        if(n== 0) return head;
-        k = k%n;
-        if(k == 0) return head;
-        ListNode* headCopy = head;
-        ListNode* newHead = NULL;
-        ListNode* newTail = NULL;
-        ListNode* tail = NULL;
-        int count = n-k;
-        while(headCopy->next != NULL){
-            if(count == 1){
-                newHead = headCopy->next;
-                newTail = headCopy;
-            }
-            count--;
-            headCopy = headCopy->next;
+    ListNode* findBeforeTail(ListNode* head){
+        while(head && head->next && head->next->next){
+            head = head->next;
         }
-        tail = headCopy;
-        newTail->next = NULL;
+        return head;
+    }
+    void printLL(ListNode* head){
+        while(head){
+            cout<<head->val<<" -> ";
+            head = head->next;
+        }
+        cout<<"NULL"<<endl;
+    }
+    ListNode* rotateRight(ListNode* head, int k) {
+        int len = lenthLL(head);
+        if(len == 0 || len == 1 || k == 0){
+            // cout<<"head at return==>> "<<endl;
+            // printLL(head);
+            return head;
+        };
+        k = k%len;
+        if(k == 0) return head;
+        ListNode* beforeTail = findBeforeTail(head);
+        ListNode* tail = beforeTail->next;
+        beforeTail->next = NULL;
         tail->next = head;
-        return newHead;
+        head = tail;
+        tail = beforeTail;
+        // printLL(head);
+        return rotateRight(head, k-1);
     }
 };
