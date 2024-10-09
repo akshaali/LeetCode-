@@ -1,27 +1,36 @@
+//TC: O(n) SC: O(1)
 class Solution {
 public:
     int candy(vector<int>& ratings) {
         int n = ratings.size();
-        vector<int>candies(n,1);
-        for(int i = 1; i<n; i++){
-            if(ratings[i]>ratings[i-1]){
-                candies[i] = candies[i-1]+1;
+        int peak = 1;
+        int currCandy = 1;
+        int ans = 1;
+        int i = 1;
+        while(i<n){
+            //constant
+            while(i<n && ratings[i]==ratings[i-1]){
+                currCandy = 1;
+                ans++;
+                i++;
             }
-        }
-        // int forward = 0;
-        // for(auto candy: candies){
-        //     cout<<candy<<" ";
-        //     forward += candy;
-        // }
-        // cout<<"forward: "<<forward<<endl;
-        for(int i = n-2; i>=0; i--){
-            if(ratings[i]>ratings[i+1]){
-                candies[i] = max(candies[i], candies[i+1]+1);
+            //increasing slope
+            currCandy = 1;
+            peak = 1;
+            while(i<n && ratings[i]>ratings[i-1]){
+                currCandy++;
+                ans += currCandy;
+                i++;
             }
-        }
-        int ans = 0;
-        for(auto candy: candies){
-            ans += candy;
+            peak = currCandy;
+            currCandy = 0;
+            //decreasing slope
+            while(i<n && ratings[i]<ratings[i-1]){
+                currCandy++;
+                ans += currCandy;
+                i++;
+            }
+            ans = ans + max(peak, currCandy+1) - peak;
         }
         return ans;
     }
