@@ -15,7 +15,6 @@ public:
                 ans++;
             }
         }
-        return n-ans;
-                                 
+        return n-ans;                       
     }
 };
