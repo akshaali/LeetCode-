@@ -7,6 +7,7 @@ My Leetcode journey
 |  |
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
+| [1929-concatenation-of-array](https://github.com/akshaali/LeetCode-/tree/master/1929-concatenation-of-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -35,4 +36,8 @@ My Leetcode journey
 |  |
 | ------- |
 | [0355-design-twitter](https://github.com/akshaali/LeetCode-/tree/master/0355-design-twitter) |
+## Simulation
+|  |
+| ------- |
+| [1929-concatenation-of-array](https://github.com/akshaali/LeetCode-/tree/master/1929-concatenation-of-array) |
 <!---LeetCode Topics End-->
