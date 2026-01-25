@@ -6,6 +6,7 @@ My Leetcode journey
 ## Array
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
 | [1929-concatenation-of-array](https://github.com/akshaali/LeetCode-/tree/master/1929-concatenation-of-array) |
 ## Dynamic Programming
@@ -19,10 +20,12 @@ My Leetcode journey
 ## Sorting
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
 ## Hash Table
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
 | [0355-design-twitter](https://github.com/akshaali/LeetCode-/tree/master/0355-design-twitter) |
 ## Linked List
 |  |
