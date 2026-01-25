@@ -1,23 +1,24 @@
-using namespace std;
+//Bucket sort
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
         unordered_map<int, int>mp;
         int n = nums.size();
-        vector<vector<int>>list(n);
-        vector<int> ans;
+        vector<vector<int>>freq(n+1);
+        vector<int>ans;
+        
         for(int i = 0; i<n; i++){
-           mp[nums[i]]++;
+            mp[nums[i]]++;
         }
-        for(auto ele:mp){
-            list[ele.second-1].push_back(ele.first);
+        for(auto it: mp){
+            freq[it.second].push_back(it.first);
         }
-        for(int i = n-1; i>=0 && ans.size()<k; i--){
-                for(int j = 0; j<list[i].size(); j++){
-                    ans.push_back(list[i][j]);
-                }
-            // cout<<list[i].size()<<endl;
+        for(int i = n; i>=0; i--){
+            for(auto n: freq[i]){
+                ans.push_back(n);
+                if(ans.size() == k) return ans;
+            }
         }
-        return ans;   
+        return ans;
     }
 };
