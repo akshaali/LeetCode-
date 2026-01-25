@@ -8,6 +8,7 @@ My Leetcode journey
 | ------- |
 | [0049-group-anagrams](https://github.com/akshaali/LeetCode-/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
+| [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
 | [1929-concatenation-of-array](https://github.com/akshaali/LeetCode-/tree/master/1929-concatenation-of-array) |
 ## Dynamic Programming
@@ -24,6 +25,7 @@ My Leetcode journey
 | [0049-group-anagrams](https://github.com/akshaali/LeetCode-/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/akshaali/LeetCode-/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
 ## Hash Table
 |  |
@@ -31,6 +33,7 @@ My Leetcode journey
 | [0049-group-anagrams](https://github.com/akshaali/LeetCode-/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/akshaali/LeetCode-/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/akshaali/LeetCode-/tree/master/0355-design-twitter) |
 ## Linked List
 |  |
@@ -43,6 +46,7 @@ My Leetcode journey
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/akshaali/LeetCode-/tree/master/0355-design-twitter) |
 ## Simulation
 |  |
@@ -53,4 +57,20 @@ My Leetcode journey
 | ------- |
 | [0049-group-anagrams](https://github.com/akshaali/LeetCode-/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/akshaali/LeetCode-/tree/master/0242-valid-anagram) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
