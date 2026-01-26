@@ -6,6 +6,7 @@ My Leetcode journey
 ## Array
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/akshaali/LeetCode-/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/akshaali/LeetCode-/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/akshaali/LeetCode-/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
@@ -31,6 +32,7 @@ My Leetcode journey
 ## Hash Table
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/akshaali/LeetCode-/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/akshaali/LeetCode-/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/akshaali/LeetCode-/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
@@ -79,4 +81,8 @@ My Leetcode journey
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/akshaali/LeetCode-/tree/master/0128-longest-consecutive-sequence) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/akshaali/LeetCode-/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
