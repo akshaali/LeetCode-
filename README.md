@@ -6,6 +6,7 @@ My Leetcode journey
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/akshaali/LeetCode-/tree/master/0011-container-with-most-water) |
 | [0036-valid-sudoku](https://github.com/akshaali/LeetCode-/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/akshaali/LeetCode-/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/akshaali/LeetCode-/tree/master/0128-longest-consecutive-sequence) |
@@ -21,6 +22,7 @@ My Leetcode journey
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/akshaali/LeetCode-/tree/master/0011-container-with-most-water) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
 ## Sorting
 |  |
@@ -90,6 +92,7 @@ My Leetcode journey
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/akshaali/LeetCode-/tree/master/0011-container-with-most-water) |
 | [0125-valid-palindrome](https://github.com/akshaali/LeetCode-/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/akshaali/LeetCode-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Binary Search
