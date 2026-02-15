@@ -87,6 +87,7 @@ My Leetcode journey
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/akshaali/LeetCode-/tree/master/0128-longest-consecutive-sequence) |
+| [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
 ## Matrix
 |  |
 | ------- |
@@ -110,4 +111,16 @@ My Leetcode journey
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/akshaali/LeetCode-/tree/master/0042-trapping-rain-water) |
+## Depth-First Search
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
+## Graph Theory
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
