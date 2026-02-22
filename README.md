@@ -39,6 +39,7 @@ My Leetcode journey
 | ------- |
 | [0036-valid-sudoku](https://github.com/akshaali/LeetCode-/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/akshaali/LeetCode-/tree/master/0049-group-anagrams) |
+| [0127-word-ladder](https://github.com/akshaali/LeetCode-/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/akshaali/LeetCode-/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/akshaali/LeetCode-/tree/master/0242-valid-anagram) |
@@ -66,6 +67,7 @@ My Leetcode journey
 | ------- |
 | [0049-group-anagrams](https://github.com/akshaali/LeetCode-/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/akshaali/LeetCode-/tree/master/0125-valid-palindrome) |
+| [0127-word-ladder](https://github.com/akshaali/LeetCode-/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/akshaali/LeetCode-/tree/master/0242-valid-anagram) |
 ## Divide and Conquer
 |  |
@@ -118,6 +120,7 @@ My Leetcode journey
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/akshaali/LeetCode-/tree/master/0127-word-ladder) |
 | [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
 ## Graph Theory
 |  |
