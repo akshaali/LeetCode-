@@ -16,6 +16,7 @@ My Leetcode journey
 | [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
 | [1929-concatenation-of-array](https://github.com/akshaali/LeetCode-/tree/master/1929-concatenation-of-array) |
 ## Dynamic Programming
 |  |
@@ -59,6 +60,7 @@ My Leetcode journey
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/akshaali/LeetCode-/tree/master/0355-design-twitter) |
+| [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
 ## Simulation
 |  |
 | ------- |
@@ -91,11 +93,13 @@ My Leetcode journey
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/akshaali/LeetCode-/tree/master/0128-longest-consecutive-sequence) |
 | [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
+| [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
 ## Matrix
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/akshaali/LeetCode-/tree/master/0036-valid-sudoku) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
 ## Two Pointers
 |  |
 | ------- |
@@ -107,6 +111,7 @@ My Leetcode journey
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/akshaali/LeetCode-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
 ## Stack
 |  |
 | ------- |
@@ -119,12 +124,14 @@ My Leetcode journey
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
+| [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/akshaali/LeetCode-/tree/master/0127-word-ladder) |
 | [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
 | ------- |
