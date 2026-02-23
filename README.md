@@ -15,6 +15,7 @@ My Leetcode journey
 | [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1929-concatenation-of-array](https://github.com/akshaali/LeetCode-/tree/master/1929-concatenation-of-array) |
 ## Dynamic Programming
 |  |
@@ -94,6 +95,7 @@ My Leetcode journey
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/akshaali/LeetCode-/tree/master/0036-valid-sudoku) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
 ## Two Pointers
 |  |
 | ------- |
@@ -122,6 +124,7 @@ My Leetcode journey
 | ------- |
 | [0127-word-ladder](https://github.com/akshaali/LeetCode-/tree/master/0127-word-ladder) |
 | [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
 ## Graph Theory
 |  |
 | ------- |
