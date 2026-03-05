@@ -128,12 +128,14 @@ My Leetcode journey
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/akshaali/LeetCode-/tree/master/0094-binary-tree-inorder-traversal) |
+| [0100-same-tree](https://github.com/akshaali/LeetCode-/tree/master/0100-same-tree) |
 | [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/akshaali/LeetCode-/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/akshaali/LeetCode-/tree/master/0100-same-tree) |
 | [0127-word-ladder](https://github.com/akshaali/LeetCode-/tree/master/0127-word-ladder) |
 | [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/akshaali/LeetCode-/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -154,8 +156,10 @@ My Leetcode journey
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/akshaali/LeetCode-/tree/master/0094-binary-tree-inorder-traversal) |
+| [0100-same-tree](https://github.com/akshaali/LeetCode-/tree/master/0100-same-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/akshaali/LeetCode-/tree/master/0094-binary-tree-inorder-traversal) |
+| [0100-same-tree](https://github.com/akshaali/LeetCode-/tree/master/0100-same-tree) |
 <!---LeetCode Topics End-->
