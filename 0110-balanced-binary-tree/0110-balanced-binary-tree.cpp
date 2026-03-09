@@ -41,15 +41,14 @@ public:
         
     }
     bool isBalanced(TreeNode* root) {
-//         if(root == NULL) return true;
+        if(root == NULL) return true;
         
-//         bool left = isBalanced(root->left);
-//         bool right = isBalanced(root->right);
+        bool left = isBalanced(root->left);
+        bool right = isBalanced(root->right);
         
-//         bool heightDiff = abs(height(root->left) - height(root->right)) <= 1;
+        bool heightDiff = abs(height(root->left) - height(root->right)) <= 1;
         
-//         if(left && right && heightDiff) return true;
-//         return false;
-        return isBalancedFast(root).first;
+        if(left && right && heightDiff) return true;
+        return false;
     }
 };
