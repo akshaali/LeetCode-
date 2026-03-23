@@ -11,6 +11,7 @@ My Leetcode journey
 | [0042-trapping-rain-water](https://github.com/akshaali/LeetCode-/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/akshaali/LeetCode-/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/akshaali/LeetCode-/tree/master/0128-longest-consecutive-sequence) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/akshaali/LeetCode-/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/akshaali/LeetCode-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
@@ -113,6 +114,7 @@ My Leetcode journey
 ## Binary Search
 |  |
 | ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/akshaali/LeetCode-/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/akshaali/LeetCode-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
 ## Stack
