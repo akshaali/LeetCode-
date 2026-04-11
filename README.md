@@ -77,6 +77,7 @@ My Leetcode journey
 | [0125-valid-palindrome](https://github.com/akshaali/LeetCode-/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/akshaali/LeetCode-/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/akshaali/LeetCode-/tree/master/0242-valid-anagram) |
+| [0606-construct-string-from-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0606-construct-string-from-binary-tree) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -139,6 +140,7 @@ My Leetcode journey
 | [0543-diameter-of-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/akshaali/LeetCode-/tree/master/0572-subtree-of-another-tree) |
+| [0606-construct-string-from-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0606-construct-string-from-binary-tree) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/akshaali/LeetCode-/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1020-number-of-enclaves](https://github.com/akshaali/LeetCode-/tree/master/1020-number-of-enclaves) |
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
@@ -173,6 +175,7 @@ My Leetcode journey
 | [0199-binary-tree-right-side-view](https://github.com/akshaali/LeetCode-/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/akshaali/LeetCode-/tree/master/0572-subtree-of-another-tree) |
+| [0606-construct-string-from-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0606-construct-string-from-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -182,6 +185,7 @@ My Leetcode journey
 | [0199-binary-tree-right-side-view](https://github.com/akshaali/LeetCode-/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/akshaali/LeetCode-/tree/master/0572-subtree-of-another-tree) |
+| [0606-construct-string-from-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0606-construct-string-from-binary-tree) |
 ## String Matching
 |  |
 | ------- |
