@@ -24,7 +24,6 @@ public:
             auto [time, pos] = pq.top();
             auto [r, c] = pos;
             pq.pop();
-            cout<<"r: "<<r<<" c: "<<c<<" time: "<<time<<endl;
             if (r == m-1 && c == n-1) return time;
 
             if (time > dist[r][c]) continue;
