@@ -20,6 +20,7 @@ My Leetcode journey
 | [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
 | [1929-concatenation-of-array](https://github.com/akshaali/LeetCode-/tree/master/1929-concatenation-of-array) |
+| [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/akshaali/LeetCode-/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -66,6 +67,7 @@ My Leetcode journey
 | [0355-design-twitter](https://github.com/akshaali/LeetCode-/tree/master/0355-design-twitter) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/akshaali/LeetCode-/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
+| [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/akshaali/LeetCode-/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Simulation
 |  |
 | ------- |
@@ -108,6 +110,7 @@ My Leetcode journey
 | [1020-number-of-enclaves](https://github.com/akshaali/LeetCode-/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
+| [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/akshaali/LeetCode-/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Two Pointers
 |  |
 | ------- |
@@ -155,17 +158,20 @@ My Leetcode journey
 | [1020-number-of-enclaves](https://github.com/akshaali/LeetCode-/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
+| [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/akshaali/LeetCode-/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Graph Theory
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/akshaali/LeetCode-/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/akshaali/LeetCode-/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/akshaali/LeetCode-/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Shortest Path
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/akshaali/LeetCode-/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/akshaali/LeetCode-/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/akshaali/LeetCode-/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Tree
 |  |
 | ------- |
