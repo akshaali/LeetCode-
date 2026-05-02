@@ -16,6 +16,7 @@ My Leetcode journey
 | [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
+| [0542-01-matrix](https://github.com/akshaali/LeetCode-/tree/master/0542-01-matrix) |
 | [1020-number-of-enclaves](https://github.com/akshaali/LeetCode-/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
@@ -26,6 +27,7 @@ My Leetcode journey
 | ------- |
 | [0042-trapping-rain-water](https://github.com/akshaali/LeetCode-/tree/master/0042-trapping-rain-water) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
+| [0542-01-matrix](https://github.com/akshaali/LeetCode-/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/akshaali/LeetCode-/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/akshaali/LeetCode-/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 ## Greedy
@@ -107,6 +109,7 @@ My Leetcode journey
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/akshaali/LeetCode-/tree/master/0036-valid-sudoku) |
+| [0542-01-matrix](https://github.com/akshaali/LeetCode-/tree/master/0542-01-matrix) |
 | [1020-number-of-enclaves](https://github.com/akshaali/LeetCode-/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
@@ -153,6 +156,7 @@ My Leetcode journey
 | [0100-same-tree](https://github.com/akshaali/LeetCode-/tree/master/0100-same-tree) |
 | [0127-word-ladder](https://github.com/akshaali/LeetCode-/tree/master/0127-word-ladder) |
 | [0199-binary-tree-right-side-view](https://github.com/akshaali/LeetCode-/tree/master/0199-binary-tree-right-side-view) |
+| [0542-01-matrix](https://github.com/akshaali/LeetCode-/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/akshaali/LeetCode-/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1020-number-of-enclaves](https://github.com/akshaali/LeetCode-/tree/master/1020-number-of-enclaves) |
