@@ -18,14 +18,6 @@ public:
                 }
             }
         }
-        //Print adjacency list
-        // for(int i = 0; i<v; i++){
-        //     cout<<i<<": {";
-        //     for(int j = 0; j<adjls[i].size(); j++){
-        //         cout<<adjls[i][j]<<",";
-        //     }
-        //     cout<<"}"<<endl;
-        // }
         vector<int>visited(v,0);
         int ans = 0;
         for(int i = 0; i<v; i++){
