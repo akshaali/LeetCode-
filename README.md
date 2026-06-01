@@ -22,6 +22,7 @@ My Leetcode journey
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
 | [1929-concatenation-of-array](https://github.com/akshaali/LeetCode-/tree/master/1929-concatenation-of-array) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/akshaali/LeetCode-/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2467-most-profitable-path-in-a-tree](https://github.com/akshaali/LeetCode-/tree/master/2467-most-profitable-path-in-a-tree) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/akshaali/LeetCode-/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Dynamic Programming
 |  |
@@ -153,6 +154,7 @@ My Leetcode journey
 | [0787-cheapest-flights-within-k-stops](https://github.com/akshaali/LeetCode-/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1020-number-of-enclaves](https://github.com/akshaali/LeetCode-/tree/master/1020-number-of-enclaves) |
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
+| [2467-most-profitable-path-in-a-tree](https://github.com/akshaali/LeetCode-/tree/master/2467-most-profitable-path-in-a-tree) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/akshaali/LeetCode-/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 ## Breadth-First Search
 |  |
@@ -166,6 +168,7 @@ My Leetcode journey
 | [1020-number-of-enclaves](https://github.com/akshaali/LeetCode-/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
+| [2467-most-profitable-path-in-a-tree](https://github.com/akshaali/LeetCode-/tree/master/2467-most-profitable-path-in-a-tree) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/akshaali/LeetCode-/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/akshaali/LeetCode-/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Graph Theory
@@ -174,6 +177,7 @@ My Leetcode journey
 | [0547-number-of-provinces](https://github.com/akshaali/LeetCode-/tree/master/0547-number-of-provinces) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/akshaali/LeetCode-/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/akshaali/LeetCode-/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2467-most-profitable-path-in-a-tree](https://github.com/akshaali/LeetCode-/tree/master/2467-most-profitable-path-in-a-tree) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/akshaali/LeetCode-/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/akshaali/LeetCode-/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Shortest Path
@@ -192,6 +196,7 @@ My Leetcode journey
 | [0543-diameter-of-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/akshaali/LeetCode-/tree/master/0572-subtree-of-another-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0606-construct-string-from-binary-tree) |
+| [2467-most-profitable-path-in-a-tree](https://github.com/akshaali/LeetCode-/tree/master/2467-most-profitable-path-in-a-tree) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/akshaali/LeetCode-/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 ## Binary Tree
 |  |
