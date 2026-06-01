@@ -1,26 +1,33 @@
 class Solution {
 public:
-    long long dfs(int node, int parent, long long &res, vector<vector<int>>& adjs, int seats){
-        int passenger = 0;
-        for(auto neighbor: adjs[node]){
-            if(neighbor == parent) continue;
-            int p = dfs(neighbor, node, res, adjs, seats);
-            passenger +=p;
-            res += ceil((double)p/seats);
-        }
-        return passenger+1;
-    }
     long long minimumFuelCost(vector<vector<int>>& roads, int seats) {
-        int N = roads.size()+1;
-        vector<vector<int>>adjs(N);
-        for(int i = 0; i<roads.size(); i++){
-            int u = roads[i][0];
-            int v = roads[i][1];
-            adjs[u].push_back(v);
-            adjs[v].push_back(u);
-        }
+        int n = roads.size() + 1;
+        vector<vector<int>> adj(n);
+        vector<int> indegree(n, 0), passengers(n, 1);
         long long res = 0;
-        dfs(0, -1, res, adjs, seats);
+
+        for (auto& road : roads) {
+            int src = road[0], dst = road[1];
+            adj[src].push_back(dst);
+            adj[dst].push_back(src);
+            indegree[src]++;
+            indegree[dst]++;
+        }
+
+        queue<int> q;
+        for (int i = 1; i < n; i++) {
+            if (indegree[i] == 1) q.push(i);
+        }
+
+        while (!q.empty()) {
+            int node = q.front();q.pop();
+            res += ceil((double) passengers[node] / seats);
+            for (int parent : adj[node]) {
+                if (--indegree[parent] == 1 && parent != 0) q.push(parent);
+                passengers[parent] += passengers[node];
+            }
+        }
+
         return res;
     }
 };
