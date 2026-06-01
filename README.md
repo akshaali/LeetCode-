@@ -21,6 +21,7 @@ My Leetcode journey
 | [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
 | [1929-concatenation-of-array](https://github.com/akshaali/LeetCode-/tree/master/1929-concatenation-of-array) |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/akshaali/LeetCode-/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/akshaali/LeetCode-/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Dynamic Programming
 |  |
@@ -35,6 +36,7 @@ My Leetcode journey
 | ------- |
 | [0011-container-with-most-water](https://github.com/akshaali/LeetCode-/tree/master/0011-container-with-most-water) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/akshaali/LeetCode-/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 ## Sorting
 |  |
 | ------- |
@@ -43,6 +45,7 @@ My Leetcode journey
 | [0242-valid-anagram](https://github.com/akshaali/LeetCode-/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/akshaali/LeetCode-/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 ## Hash Table
 |  |
 | ------- |
