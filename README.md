@@ -14,6 +14,7 @@ My Leetcode journey
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/akshaali/LeetCode-/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/akshaali/LeetCode-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
+| [0274-h-index](https://github.com/akshaali/LeetCode-/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/akshaali/LeetCode-/tree/master/0542-01-matrix) |
@@ -47,6 +48,7 @@ My Leetcode journey
 | [0049-group-anagrams](https://github.com/akshaali/LeetCode-/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/akshaali/LeetCode-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/akshaali/LeetCode-/tree/master/0242-valid-anagram) |
+| [0274-h-index](https://github.com/akshaali/LeetCode-/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
 | [2126-destroying-asteroids](https://github.com/akshaali/LeetCode-/tree/master/2126-destroying-asteroids) |
@@ -228,4 +230,8 @@ My Leetcode journey
 |  |
 | ------- |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/akshaali/LeetCode-/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/akshaali/LeetCode-/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
