@@ -42,6 +42,7 @@ My Leetcode journey
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
 | [2126-destroying-asteroids](https://github.com/akshaali/LeetCode-/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/akshaali/LeetCode-/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2486-append-characters-to-string-to-make-subsequence](https://github.com/akshaali/LeetCode-/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 ## Sorting
 |  |
 | ------- |
@@ -92,6 +93,7 @@ My Leetcode journey
 | [0127-word-ladder](https://github.com/akshaali/LeetCode-/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/akshaali/LeetCode-/tree/master/0242-valid-anagram) |
 | [0606-construct-string-from-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0606-construct-string-from-binary-tree) |
+| [2486-append-characters-to-string-to-make-subsequence](https://github.com/akshaali/LeetCode-/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -131,6 +133,7 @@ My Leetcode journey
 | [0042-trapping-rain-water](https://github.com/akshaali/LeetCode-/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/akshaali/LeetCode-/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/akshaali/LeetCode-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [2486-append-characters-to-string-to-make-subsequence](https://github.com/akshaali/LeetCode-/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 ## Binary Search
 |  |
 | ------- |
