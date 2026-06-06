@@ -89,6 +89,7 @@ My Leetcode journey
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/akshaali/LeetCode-/tree/master/0049-group-anagrams) |
+| [0058-length-of-last-word](https://github.com/akshaali/LeetCode-/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/akshaali/LeetCode-/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/akshaali/LeetCode-/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/akshaali/LeetCode-/tree/master/0242-valid-anagram) |
