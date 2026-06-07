@@ -18,6 +18,7 @@ My Leetcode journey
 | [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/akshaali/LeetCode-/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/akshaali/LeetCode-/tree/master/0542-01-matrix) |
+| [0929-unique-email-addresses](https://github.com/akshaali/LeetCode-/tree/master/0929-unique-email-addresses) |
 | [1020-number-of-enclaves](https://github.com/akshaali/LeetCode-/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/akshaali/LeetCode-/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/akshaali/LeetCode-/tree/master/1631-path-with-minimum-effort) |
@@ -65,6 +66,7 @@ My Leetcode journey
 | [0242-valid-anagram](https://github.com/akshaali/LeetCode-/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/akshaali/LeetCode-/tree/master/0355-design-twitter) |
+| [0929-unique-email-addresses](https://github.com/akshaali/LeetCode-/tree/master/0929-unique-email-addresses) |
 ## Linked List
 |  |
 | ------- |
@@ -94,6 +96,7 @@ My Leetcode journey
 | [0127-word-ladder](https://github.com/akshaali/LeetCode-/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/akshaali/LeetCode-/tree/master/0242-valid-anagram) |
 | [0606-construct-string-from-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0606-construct-string-from-binary-tree) |
+| [0929-unique-email-addresses](https://github.com/akshaali/LeetCode-/tree/master/0929-unique-email-addresses) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/akshaali/LeetCode-/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 ## Divide and Conquer
 |  |
