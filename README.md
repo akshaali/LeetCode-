@@ -25,6 +25,7 @@ My Leetcode journey
 | [1929-concatenation-of-array](https://github.com/akshaali/LeetCode-/tree/master/1929-concatenation-of-array) |
 | [2126-destroying-asteroids](https://github.com/akshaali/LeetCode-/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/akshaali/LeetCode-/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/akshaali/LeetCode-/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2467-most-profitable-path-in-a-tree](https://github.com/akshaali/LeetCode-/tree/master/2467-most-profitable-path-in-a-tree) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/akshaali/LeetCode-/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Dynamic Programming
@@ -67,6 +68,7 @@ My Leetcode journey
 | [0347-top-k-frequent-elements](https://github.com/akshaali/LeetCode-/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/akshaali/LeetCode-/tree/master/0355-design-twitter) |
 | [0929-unique-email-addresses](https://github.com/akshaali/LeetCode-/tree/master/0929-unique-email-addresses) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/akshaali/LeetCode-/tree/master/2196-create-binary-tree-from-descriptions) |
 ## Linked List
 |  |
 | ------- |
@@ -209,6 +211,7 @@ My Leetcode journey
 | [0543-diameter-of-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/akshaali/LeetCode-/tree/master/0572-subtree-of-another-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0606-construct-string-from-binary-tree) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/akshaali/LeetCode-/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2467-most-profitable-path-in-a-tree](https://github.com/akshaali/LeetCode-/tree/master/2467-most-profitable-path-in-a-tree) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/akshaali/LeetCode-/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 ## Binary Tree
@@ -221,6 +224,7 @@ My Leetcode journey
 | [0543-diameter-of-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/akshaali/LeetCode-/tree/master/0572-subtree-of-another-tree) |
 | [0606-construct-string-from-binary-tree](https://github.com/akshaali/LeetCode-/tree/master/0606-construct-string-from-binary-tree) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/akshaali/LeetCode-/tree/master/2196-create-binary-tree-from-descriptions) |
 ## String Matching
 |  |
 | ------- |
