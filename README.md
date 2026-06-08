@@ -25,6 +25,7 @@ My Leetcode journey
 | [1929-concatenation-of-array](https://github.com/akshaali/LeetCode-/tree/master/1929-concatenation-of-array) |
 | [2126-destroying-asteroids](https://github.com/akshaali/LeetCode-/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/akshaali/LeetCode-/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/akshaali/LeetCode-/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/akshaali/LeetCode-/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2467-most-profitable-path-in-a-tree](https://github.com/akshaali/LeetCode-/tree/master/2467-most-profitable-path-in-a-tree) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/akshaali/LeetCode-/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -89,6 +90,7 @@ My Leetcode journey
 |  |
 | ------- |
 | [1929-concatenation-of-array](https://github.com/akshaali/LeetCode-/tree/master/1929-concatenation-of-array) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/akshaali/LeetCode-/tree/master/2161-partition-array-according-to-given-pivot) |
 ## String
 |  |
 | ------- |
@@ -139,6 +141,7 @@ My Leetcode journey
 | [0042-trapping-rain-water](https://github.com/akshaali/LeetCode-/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/akshaali/LeetCode-/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/akshaali/LeetCode-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/akshaali/LeetCode-/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/akshaali/LeetCode-/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 ## Binary Search
 |  |
